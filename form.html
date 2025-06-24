@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGRTC Appilcation form</title>
+</head>
+<body>
+    <form >
+    <center>
+        <fieldset style:width="80%">
+        <img src="./image/tsrtc.png" height="100" width="100">
+        <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+        <h1>GENERAL BUS PASS APPLICATION</h1>
+        </fieldset>
+    </center>
+   <fieldset style="width: 100%">
+        <legend>
+            <h1>Applicant Details</h1>
+        </legend>
+        <table  width="100%" >
+                <tbody>
+                 <tr align="center">
+            <td>
+                <label for="name">NAME:</label>
+                <input type="text" name="name" id="name" maxlength="30" required>
+            </td>
+            <td>
+                <label for="fname">FATHER'S NAME:</label>
+                <input type="text" name="fname" id="fname" maxlength="30" required>
+            </td> 
+        </tr>
+        <tr align="center"><br>
+            <td>
+                <label for="date">Date Of Birth:</label>
+                <input type="date"name="date" id="date" required>
+            </td>
+           <td>
+                <label >Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" >
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <label for="age">Age:</label>
+                 <input type="age" id="age" name="age" required>
+            </td>
+            <td>
+                 <label for="Aadhaar">Aadhaar No:</label>
+                <input type="number" id="Aadhaar" required>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <label for="whats">WhatsApp:</label>
+                 <input type="number" id="whats" name="number" >
+            </td>
+            <td>
+                <label for="email">Email id:</label>
+                <input type="email" id="email" required>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <label for="photo">photo:</label>
+                <input type="file" id="photo" accept="png" required>
+            </td>
+        </tr>
+    </tbody> 
+    </table>
+    </fieldset>
+    <fieldset width="100%">
+        <legend>
+            <h1> Residential Address Details: </h1>
+        </legend>
+    <table width="100%">
+        <tbody>
+        <tr align="center">
+            <td>
+                <label for="address">Applicant's Address:</label>
+                <textarea type="address" id="address"  required></textarea>
+            </td>
+             <td>
+                <label for="district">Select District:</label>
+                    <select id="district" name="district" required>
+                    <option value="">--Select District--</option>
+                    <option value="krishna">Krishna</option>
+                    <option value="guntur">Guntur</option>
+                    <option value="nellore">Nellore</option>
+                    <option value="prakasam">Prakasam</option>
+                    <option value="kadapa">Kadapa</option>
+                    <option value="vizag">Visakhapatnam</option></select>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <label  for="mandal">Mandal:</label>
+                <select id="mandal" name="district" required>
+                <option>geesugonda</option>
+                <option>warangal</option>
+                <option>killawarangal</option>
+                <option>fortwarangal</option>
+                </select>
+            </td>
+            <td>
+                <label for="village">village</label>
+                <select id="village" name="village" required>
+                <option>dharamaram</option>
+                <option>vanchangiri</option>
+                <option>ladour</option>
+                <option>fortwarangal</option>
+                </select>
+            </td>
+        </tr>
+        <tr align="center"> 
+            <td>
+            <label for="Pincode">Pincode:</label>
+            <input type="number" id="pincode" required>
+            </td>
+        </tr>
+</tbody>
+</table>
+</fieldset>
+    <fieldset width="100%">
+        <legend>
+            <h1>Passtype Details</h1>
+        </legend>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="city">City</label>
+                        <select id="city" name="place" required>
+                        <option>warangal</option>
+                        <option>Hyderbad</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="pass">pass</label>
+                        <select id="pass" required>
+                            <option>GREATER PASS</option>
+                            <option>GENERAL ORDINARY ROUTE PASS</option>
+                            <option>ORDINARY PASS</option>
+                            <option>METRO DELUX PASS</option>
+                            <option>METRO  EXPRESS PASS</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+   <fieldset>
+    <legend><h1>Mode of payment & pass collection</h1></legend>
+    <table>
+        <tbody>
+            <tr><td>
+                <label for="Payment">Payment Mode:</label>
+                <select id="Payment" required>select payment mode
+                    <option>payment at counter</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mode">pass Delivery mode:</label>
+                    <select id="mode" name="name" required>
+                        <option>At counter</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">center at which <br>
+                    you want to collect 
+                pass:</label>
+                <select  id="pass">
+                    <option>RTC ABIDS</option>
+                    <option>RTC WRGL</option>
+                    <option>RTC CBS</option>
+                    <option>RTC HNK</option>
+                </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+   </fieldset>
+   </table>
+   <center>
+   <img src="./image/caption.png" width="100" height="20"><br>
+   <input type="text" maxlength="6"><br>
+   <button type="submit">Submit Form</button></center>
+</form>
+</body>
+</html>
