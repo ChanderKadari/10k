@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.child1{
+    position: relative;
+   font-size: x-large;
+   letter-spacing: 5px;
+}
+.child2{
+    position: absolute;
+    top: 0%;
+    right:0%;
+    padding-right: 10px;
+    padding-top: 25px;
+    word-spacing: 20px;
+    font-size: x-large;
+    letter-spacing: 5px;
+
+}
+.parent{
+    background-color:#b3b3b3;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    z-index: +1; 
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color:rgb(219, 219, 209);
+   
+}
+.image{
+    width: 100%;
+    position: relative;
+}
+h2{
+   position: absolute;
+   top: 400px;
+   left: 600px; 
+   color: white;  
+    font-size: xx-large;
+    letter-spacing: 5px;
+}
+.bold{
+    background-color: black;
+    
+}
+.container1{
+        position: relative; 
+       
+    }
+.child4,.child5,.child6,.child7{
+    display: inline-block;
+    
+}
+
+img{
+    width: 350px;
+   
+}
+p{
+background-color:black;
+color: white;
+position: absolute;
+top:0;
+font: weight 10px;
+padding: top 10px;}
+
+h3{
+    text-align: center;
+
+}
+h4{
+background-color: white;
+color: black;
+padding-right: 150px;
+padding-bottom: 10px;
+padding-top: 20px;
+}
+button{
+    width: 100%; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: italic;
+    font-weight: 100;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+.child8{
+    color: white;
+    background-color: black;
+    width: 150px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    margin-left: 10px;
+}
+.image1{
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+}
