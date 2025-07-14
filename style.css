@@ -1,113 +1,246 @@
 *{
-    padding: 0%;
-    margin: 0%;
     box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    overflow: auto;
 }
-.child1{
-    position: relative;
-   font-size: x-large;
-   letter-spacing: 5px;
-}
-.child2{
-    position: absolute;
-    top: 0%;
-    right:0%;
-    padding-right: 10px;
-    padding-top: 25px;
-    word-spacing: 20px;
-    font-size: x-large;
-    letter-spacing: 5px;
-
-}
-.parent{
-    background-color:#b3b3b3;
-    width: 100%;
-    padding: 20px;
+.container1{
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
     position: fixed;
-    z-index: +1; 
+    z-index: 1;
+    width: 100%;
+ 
 
+
+}
+.item{
+    text-decoration: none;
+    font-size: x-large;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+ 
+
+}
+.item:hover{
+    background-color: rgb(203, 201, 201);
+}
+
+.image{
+    height: 700px;;        
+      object-fit: cover;   
+      display: block; 
+      width: 100%; 
+          
+}
+.container2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;  
+}
+.sub{
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 3em;
+      font-weight: bold;
+      line-height: 1.5;
+      font-family: "Inconsolata", sans-serif;
+}
+.sub1{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: "Inconsolata", sans-serif;
+}  
+.sub2{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: "Inconsolata", sans-serif;
+}
+.part2{
+    background-color:#FBF6EE !important;
+  
+} 
+.container3{
+    text-align: center;
+} 
+
+.sub3{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    letter-spacing: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 5px;
+
+}
+.sub4 {
+  
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  word-spacing: 5px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+.sub5{
+    margin-left:10px;
+    border-left:10px solid rgba(214, 201, 201, 0.854);
+font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  word-spacing: 8px;
+  margin-top: 30px;
+  font-weight: 300;
+  margin-bottom:50px;
+  height:80px;
+}
+.sub6{
+    display: flex;
+    width: 700px;
+    margin-left:400px;
+}
+.sub7,.sub8{
+ font-family: "Segoe UI", Arial, sans-serif;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: 400px;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.6;
+}
+.sub9{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    letter-spacing: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 5px;
+}
+.container5{
+    text-align: center;
+
+}
+.sub10{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.contant1,.contant{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 a{
     text-decoration: none;
     color: black;
-}
-a:hover{
-    background-color:rgb(219, 219, 209);
-   
-}
-.image{
-    width: 100%;
-    position: relative;
-}
-h2{
-   position: absolute;
-   top: 400px;
-   left: 600px; 
-   color: white;  
-    font-size: xx-large;
-    letter-spacing: 5px;
-}
-.bold{
-    background-color: black;
-    
-}
-.container1{
-        position: relative; 
-       
-    }
-.child4,.child5,.child6,.child7{
-    display: inline-block;
-    
-}
+} 
+.sub10{
+    display: flex;
+    margin-top: 50px;
+    width: 800px;
+    margin-left:350px;
+    margin-right: auto;
 
-img{
-    width: 350px;
-   
 }
-p{
-background-color:black;
-color: white;
-position: absolute;
-top:0;
-font: weight 10px;
-padding: top 10px;}
-
-h3{
+.container7{
     text-align: center;
+}
+.sub11{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    letter-spacing: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 5px;
+}
+.sub12{
+    margin-left:400px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    font-size:large;
 
+}
+.sub13{
+    display: flex;
+    margin-top: 50px;
+    width: 700px;
+    margin-left:400px;
+    margin-right: auto;
+}
+.sub14{
+font-family: "Segoe UI", Arial, sans-serif;
+  max-width: 700px;
+  margin-left: 400px;
+  word-spacing: 5px;
+  margin-top: 50px;
+   font-weight: 400;
+  font-size:large;
+  margin-bottom: 50px;
 }
 h4{
-background-color: white;
-color: black;
-padding-right: 150px;
-padding-bottom: 10px;
-padding-top: 20px;
+    background-color: black;
+    color: white;
+    display:inline-block;
+    padding-left: 2px;
+     padding-right: 2px;
 }
-button{
-    width: 100%; 
-    padding-top: 5px;
-    padding-bottom: 5px;
+.sub15{
+    margin-left: 400px;
+  
 }
-h1{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-style: italic;
-    font-weight: 100;
+
+.sub17:hover{
+    background-color: black;
+    color: white;
+
+
+}
+.sub17{
+    font-size:large;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 input{
-    width: 100%;
-    padding: 10px;
+    width: 700px;
+    padding:10px;
     margin: 10px;
-}
-.child8{
-    color: white;
-    background-color: black;
-    width: 150px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-    margin-left: 10px;
-}
-.image1{
-    width: 100%;
-    margin: 20px 20px 20px 20px;
 }
